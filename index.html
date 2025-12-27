@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="bg-grid"></div>
+    <header class="nav">
+        <div class="logo">PRAVEEN.dev</div>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <button class="pill" id="contact-btn">Let’s talk</button>
+    </header>
+
+    <main class="shell">
+        <section class="hero" id="about">
+            <div class="hero__text">
+                <p class="eyebrow">Software Engineer</p>
+                <h1>Building reliable inventory software with a calm approach.</h1>
+                <p class="lede">Focused on building great software, gathering experience, and solving complex problems.</p>
+                <div class="hero__actions">
+                    <button class="pill primary" id="work-btn">View experience</button>
+                    <a class="ghost" href="#contact">Contact</a>
+                </div>
+                <div class="meta-row">
+                    <div><span>3+</span> years experience</div>
+                    <!-- <div><span>15</span> products launched</div> -->
+                    <div><span>Remote</span> friendly</div>
+                </div>
+            </div>
+            <div class="hero__visual">
+                <div class="avatar">
+                    <div class="avatar__ring"></div>
+                    <div class="avatar__img" aria-hidden="true">
+                        <img src="avtar.jpg" alt="Praveen's Avatar">
+                    </div>
+                    <div class="avatar__label">Hey, I’m Praveen</div>
+                </div>
+                <div class="hero__card">
+                    <div class="badge">Open to collaboration</div>
+                    <h3>Currently focused on</h3>
+                    <ul>
+                        <li>Full-stack development and API design</li>
+                        <li>Inventory software solutions</li>
+                        <li>Expanding my technical knowledge</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="panel" id="experience">
+            <div class="panel__header">
+                <p class="eyebrow">Experience</p>
+                <h2>Recent roles</h2>
+            </div>
+            <div class="timeline">
+                <article class="card">
+                    <div class="card__head">
+                        <div>
+                            <h3>Software Engineer • Department of Motor Traffic</h3>
+                            <p class="muted">2024 - Present</p>
+                        </div>
+                        <span class="chip">Onsite</span>
+                    </div>
+                    <ul>
+                        <li>Analyzing end-to-end business processes.</li>
+                        <li>Architecting optimal inventory software solutions.</li>
+                        <li>Collaborating within cross-functional teams</li>
+                    </ul>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="panel grid" id="skills">
+            <div>
+                <p class="eyebrow">Skills</p>
+                <h2>What I work with</h2>
+                <div class="tags">
+                    <span class="chip">Java</span>
+                    <span class="chip">MySql</span>
+                    <span class="chip">HTML</span>
+                    <span class="chip">CSS</span>
+                    <span class="chip">JS</span>
+                    <span class="chip">Arduino</span>
+                    <span class="chip">springBoot</span>
+                </div>
+            </div>
+            <div>
+                <p class="eyebrow">Programming Languages</p>
+                <h2>Languages I prefer</h2>
+                <div class="lang">
+                    <div class="lang__item">
+                        <div class="lang__icon ts">
+                            <img src="javascript.png" alt="JavaScript">
+                        </div>
+                        <div>
+                            <span>JavaScript</span>
+                            <small> backbone of modern user interfaces.</small>
+                        </div>
+                    </div>
+                    <div class="lang__item">
+                        <div class="lang__icon py">
+                            <img src="p-80-java.webp" alt="Java">
+                        </div>
+                        <div>
+                            <span>JAVA</span>
+                            <small>standalone desktop applications.</small>
+                        </div>
+                    </div>
+                    <div class="lang__item">
+                        <div class="lang__icon go">
+                            <img src="mysql-5-logo-png-transparent.png" alt="MySQL">
+                        </div>
+                        <div>
+                            <span>MySQL</span>
+                            <small>Securely storing and managing structured data.</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="panel" id="education">
+            <div class="panel__header">
+                <p class="eyebrow">Education</p>
+                <h2>Learning never stops</h2>
+            </div>
+            <div class="card">
+                <div class="card__head">
+                    <div>
+                        <h3>Bachelor of software engineering , Computer Software Engineering</h3>
+                        <p class="muted">Birmingham City University • 2024 — 2028</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__head">
+                    <div>
+                        <h3>Diploma in Software Engineering</h3>
+                        <p class="muted">Institute of Computer Engineering Technology (iCET) • 2025 — 2026</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__head">
+                    <div>
+                        <h3>Certificate in Information Technology</h3>
+                        <p class="muted">ESOFT Metro Campus • 2022 — 2023</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__head">
+                    <div>
+                        <h3>Diploma in Information Technology</h3>
+                        <p class="muted">ESOFT Metro Campus • 2022 — 2023</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="panel" id="contact">
+            <div class="panel__header">
+                <p class="eyebrow">Contact</p>
+                <h2>Let’s build something</h2>
+            </div>
+            <div class="contact">
+                <div>
+                    <p>Available for new opportunities, collaborations, or mentoring. Drop a note and I’ll respond within 48 hours.</p>
+                    <div class="contact__links">
+                        <a href="praveenwijewardana1@gmail.com" class="pill primary">
+                            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 6h16a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1Zm0 2.2V17h16V8.2l-8 5.2-8-5.2Z" fill="currentColor"></path></svg>
+                            Email
+                        </a>
+                        <a href="https://www.linkedin.com/in/praveen-wijewardana/" target="_blank" rel="noreferrer" class="pill">
+                            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6.5 20H3.6V9h2.9v11ZM5 7.5a1.75 1.75 0 1 1 0-3.5 1.75 1.75 0 0 1 0 3.5ZM20.4 20h-2.9v-5.8c0-1.4-.6-2.1-1.6-2.1-.9 0-1.7.6-1.7 2V20h-2.9V9h2.8v1.5s.9-1.6 3-1.6c2 0 3.3 1.2 3.3 3.7V20Z" fill="currentColor"></path></svg>
+                            LinkedIn
+                        </a>
+                        <a href="https://github.com/PraveenWijewardana" target="_blank" rel="noreferrer" class="pill">
+                            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-1.7c-2.8.6-3.4-1.3-3.4-1.3-.4-1-1-1.3-1-1.3-.8-.6.1-.6.1-.6.9.1 1.3.9 1.3.9.8 1.3 2.1.9 2.6.7.1-.6.3-.9.5-1.1-2.2-.3-4.6-1.1-4.6-5a3.9 3.9 0 0 1 1-2.7c-.1-.3-.5-1.4.1-2.8 0 0 .8-.3 2.8 1a9.7 9.7 0 0 1 5 0c2-1.3 2.8-1 2.8-1 .6 1.4.2 2.5.1 2.8a3.9 3.9 0 0 1 1 2.7c0 3.9-2.4 4.7-4.6 5 .3.3.6.8.6 1.6v2.4c0 .3.2.6.7.5A10 10 0 0 0 12 2Z" fill="currentColor"></path></svg>
+                            GitHub
+                        </a>
+                    </div>
+                </div>
+                <form class="contact__form">
+                    <div class="field">
+                        <label>Name</label>
+                        <input type="text" placeholder="Your name" required id="name">
+                    </div>
+                    <div class="field">
+                        <label>Email</label>
+                        <input type="email" placeholder="you@example.com" required id="email">
+                    </div>
+                    <div class="field">
+                        <label>Project</label>
+                        <textarea rows="3" placeholder="What would you like to build?" required id="project"></textarea>
+                    </div>
+                    <button class="pill primary full" onclick="msg();">Send message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__inner">
+            <div class="logo">PRVEEN.dev</div>
+            <div class="footer__links">
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer__note">© 2025 Praveen. All rights reserved.</div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
